@@ -1,5 +1,7 @@
 // eslint-disable-next-line quotes
-import type { NextPage } from "next";
+import type { NextPage } from 'next';
+
+import Button from '../components/button';
 
 const Home: NextPage = () => (
   <div className="grid content-center h-screen border">
@@ -8,14 +10,9 @@ const Home: NextPage = () => (
         <h1 className="text-5xl font-bold leading-relaxed">
           Nextjs ＋ Tailwind ＋ TypeScript ⚡️
         </h1>
-        <a
-          href="https://github.com/aftabrehan/vpn-vault"
-          target="_blank"
-          rel="noreferrer"
-          className="text-blue-500"
-        >
-          Repo
-        </a>
+
+        <Button type="primary">Primary</Button>
+        <Button type="secondary">Secondary</Button>
       </div>
     </div>
   </div>
