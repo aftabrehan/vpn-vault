@@ -1,11 +1,12 @@
 import type { NextPage } from 'next';
 
+import Layout from '../layout';
 import Hero from '../components/hero';
 
 const Home: NextPage = () => (
-  <div className="grid content-center h-screen border">
+  <Layout>
     <Hero />
-  </div>
+  </Layout>
 );
 
 export default Home;
