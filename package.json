@@ -12,6 +12,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "framer-motion": "^10.12.4",
     "husky": "^8.0.1",
     "next": "12.2.0",
     "react": "18.2.0",
