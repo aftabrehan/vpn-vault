@@ -10,7 +10,7 @@ body {
   @apply bg-white-500;
 }
 p {
-  @apply text-black-500;
+  @apply text-gray-400;
 }
 .animation-hover:after {
   background: none repeat scroll 0 0 transparent;
@@ -47,7 +47,7 @@ li.circle-check:before {
 }
 li.check:before {
   left: -0.5em;
-  background-image: url('/assets/Icon/tickmark.svg');
+  background-image: url('/assets/icon/tickmark.svg');
   top: -0.5em;
   font-size: 400%;
 }

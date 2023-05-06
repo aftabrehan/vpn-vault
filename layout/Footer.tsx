@@ -9,7 +9,7 @@ import Instagram from '../public/assets/icon/instagram.svg';
 const Footer = () => (
   <div className="bg-white-300 pt-44 pb-24">
     <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
-      <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
+      <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start gap-4">
         <LogoVPN className="h-10 w-auto" />
         <p className="mb-4">
           <span className="font-medium">VPN Vault</span> is a private virtual
@@ -30,7 +30,7 @@ const Footer = () => (
       </div>
       <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
         <p className="text-black-600 mb-4 font-medium text-lg">Product</p>
-        <ul className="text-black-500 ">
+        <ul className="text-gray-400 ">
           <li className="my-2 hover:text-primary-400 cursor-pointer transition-all">
             Download
           </li>
@@ -53,7 +53,7 @@ const Footer = () => (
       </div>
       <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
         <p className="text-black-600 mb-4 font-medium text-lg">Engage</p>
-        <ul className="text-black-500">
+        <ul className="text-gray-400">
           <li className="my-2 hover:text-primary-400 cursor-pointer transition-all">
             VPN Vault?
           </li>
@@ -76,7 +76,7 @@ const Footer = () => (
       </div>
       <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
         <p className="text-black-600 mb-4 font-medium text-lg">Earn Money</p>
-        <ul className="text-black-500">
+        <ul className="text-gray-400">
           <li className="my-2 hover:text-primary-400 cursor-pointer transition-all">
             Affiliate
           </li>

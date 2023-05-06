@@ -94,8 +94,8 @@ const Testimonial = ({
         className="flex items-stretch justify-items-stretch"
       >
         {listTestimoni.map((listTestimonis, index) => (
-          <div className="px-3 flex items-stretch" key={index}>
-            <div className="border-2 border-gray-500 hover:border-primary-400 transition-all rounded-lg p-8 flex flex-col h-[288px]">
+          <div className="flex justify-center p-4" key={index}>
+            <div className="shadow hover:shadow-lg transition-all rounded-lg p-8 flex flex-col h-[288px]">
               <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
                 <div className="flex order-2 xl:order-1">
                   <Image
@@ -108,7 +108,7 @@ const Testimonial = ({
                     <p className="text-lg text-black-600 capitalize">
                       {listTestimonis.name}
                     </p>
-                    <p className="text-sm text-black-500 capitalize">
+                    <p className="text-sm text-gray-400 capitalize">
                       {listTestimonis.city},{listTestimonis.country}
                     </p>
                   </div>
