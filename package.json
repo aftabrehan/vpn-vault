@@ -14,12 +14,14 @@
   "dependencies": {
     "@svgr/webpack": "^7.0.0",
     "@types/react-scroll": "^1.8.6",
+    "@types/react-slick": "^0.23.10",
     "framer-motion": "^10.12.4",
     "husky": "^8.0.1",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
