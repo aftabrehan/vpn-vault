@@ -38,14 +38,14 @@ const Hero = () => {
           className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
           variants={scrollAnimation}
         >
-          <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+          <div className=" flex flex-col gap-8 justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
               Want anything to be easy with
               <span className="font-bold">VPNVault.</span>
             </h1>
-            <p className="text-black-500 mt-4 mb-6">
-              Provide a network for all your needs with ease and fun using
-              LaslesVPN discover interesting features from us.
+            <p className="text-gray-400 mt-4 mb-6">
+              Provide a network for all your needs with ease and fun using VPN
+              Vault discover interesting features from us.
             </p>
             <Button type="primary">Get Started</Button>
           </div>
@@ -80,7 +80,7 @@ const Hero = () => {
                   <p className="text-xl text-black-600 font-bold">
                     {listUsers.number + 1}
                   </p>
-                  <p className="text-lg text-black-500">{listUsers.name}</p>
+                  <p className="text-lg text-gray-400">{listUsers.name}</p>
                 </div>
               </div>
             </motion.div>
