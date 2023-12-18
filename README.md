@@ -1,44 +1,44 @@
-## VPN Vault
+# Product Landing Page
 
-##### Experience the ultimate landing page for online privacy and security with VPN Vault - built with Next.js, Tailwind CSS, and TypeScript.
+This is a product landing page featuring a VPN product. It was built using Tailwind CSS, React JS, and Next.js, with the design created in Figma. The page has a clean white design and exemplifies a user-centric approach. Our main focus is on the code system, incorporating reusable components and a react library for the testimonial carousel. The webpage is fully responsive, although there is room for further optimization of images for small devices, which I have learned to implement in later projects. I have chosen to leave this project as is and concentrate on addressing new real-world problems. Feel free to explore the available code on GitHub.
 
-###### Preview
+| [View Project 🔥](https://aftabrehan.com/portfolio/product-landing-page) | [Live Preview 🚀](http://vpn-vault.vercel.app) |
+| ------------------------------------------------------------------------ | ---------------------------------------------- |
 
-<div align="center">
- <img src="https://user-images.githubusercontent.com/93012310/235309444-b84b5288-b4ad-4c1b-b50c-8c3ac81edff2.png" alt="poster"/>
+### Preview
+
+<div>
+  <a href="https://aftabrehan.com/portfolio/product-landing-page">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/6d96df1a660541ea93ce30a912173836-with-play.gif">
+  </a>
 </div>
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+|                                                                                                        The                                                                                                        |                                                                                                      Project                                                                                                      |                                                                                                       Shots                                                                                                       |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <div><a href="https://aftabrehan.com/portfolio/product-landing-page"><img style="max-width:220px;" src="https://aftabrehan.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f470bb14.png&w=1920&q=75"></a></div> | <div><a href="https://aftabrehan.com/portfolio/product-landing-page"><img style="max-width:220px;" src="https://aftabrehan.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.953df716.png&w=1920&q=75"></a></div> | <div><a href="https://aftabrehan.com/portfolio/product-landing-page"><img style="max-width:220px;" src="https://aftabrehan.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4aa7564d.png&w=1920&q=75"></a></div> |
+| <div><a href="https://aftabrehan.com/portfolio/product-landing-page"><img style="max-width:220px;" src="https://aftabrehan.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.b7dd3ca9.png&w=1920&q=75"></a></div> | <div><a href="https://aftabrehan.com/portfolio/product-landing-page"><img style="max-width:220px;" src="https://aftabrehan.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.6fe94056.png&w=1920&q=75"></a></div> | <div><a href="https://aftabrehan.com/portfolio/product-landing-page"><img style="max-width:220px;" src="https://aftabrehan.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.aee9dd29.png&w=1920&q=75"></a></div> |
 
-## Getting Started
+<hr />
 
-First, run the development server:
+### Getting Started
 
-```bash
-npm run dev
-# or
+1. Clone the repository.
+
+```
+git clone https://github.com/aftabrehan/vpn-vault
+```
+
+2. Install the required dependencies.
+
+```
+yarn
+```
+
+3. Start the development server.
+
+```
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> [!NOTE]
+> This project is created solely for portfolio purposes, and you are free to use it as you see fit.
