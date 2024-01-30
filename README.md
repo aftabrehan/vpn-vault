@@ -25,7 +25,7 @@ This is a product landing page featuring a VPN product. It was built using Tailw
 1. Clone the repository.
 
 ```
-git clone https://github.com/aftabrehan/vpn-vault
+git clone https://github.com/aftabrehan/vpn-vault.git
 ```
 
 2. Install the required dependencies.
